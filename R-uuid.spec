@@ -4,7 +4,7 @@
 #
 Name     : R-uuid
 Version  : 0.1.4
-Release  : 46
+Release  : 47
 URL      : https://cran.r-project.org/src/contrib/uuid_0.1-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/uuid_0.1-4.tar.gz
 Summary  : Tools for Generating and Handling of UUIDs
@@ -33,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1589520475
+export SOURCE_DATE_EPOCH=1626707826
 
 %install
-export SOURCE_DATE_EPOCH=1589520475
+export SOURCE_DATE_EPOCH=1626707826
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -104,3 +104,4 @@ R CMD check --no-manual --no-examples --no-codoc uuid || :
 %defattr(-,root,root,-)
 /usr/lib64/R/library/uuid/libs/uuid.so
 /usr/lib64/R/library/uuid/libs/uuid.so.avx2
+/usr/lib64/R/library/uuid/libs/uuid.so.avx512

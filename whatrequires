@@ -1,4 +1,7 @@
 # This file contains recursive sources that require this package
 R-IRkernel
 R-RNeXML
+R-conditionz
+R-googledrive
+R-ids
 R-rhub
