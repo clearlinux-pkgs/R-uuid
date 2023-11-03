@@ -5,7 +5,7 @@
 #
 Name     : R-uuid
 Version  : 1.1.1
-Release  : 66
+Release  : 67
 URL      : https://cran.r-project.org/src/contrib/uuid_1.1-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/uuid_1.1-1.tar.gz
 Summary  : Tools for Generating and Handling of UUIDs
